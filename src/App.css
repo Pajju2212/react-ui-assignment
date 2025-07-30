@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: rgb(97, 91, 91);
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-title {
+  color: #0505e1; /* gold */
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #020202;
+}
+.stars {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(252, 252, 252) url('https://img.freepik.com/premium-photo/mesmerizing-vibrant-nebula-with-celestial-planets-cosmic-elements_994764-154605.jpg?semt=ais_hybrid&w=740') repeat;
+  background-size: cover;
+  z-index: 0;
+  animation: moveStars 60s linear infinite;
+}
+
+.product-list-title {
+  color: #00FFFF; /* cyan */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ff00cc, #05edea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.App {
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+@keyframes moveStars {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 10000px;
+  }
+}
