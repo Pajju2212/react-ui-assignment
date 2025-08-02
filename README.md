@@ -16,7 +16,7 @@ This assignment focused purely on the **UI layer** (no backend logic) but was de
 
 ## **Tech Stack**
 - **Frontend:** React, Vite
-- **Styling:** CSS / TailwindCSS (whichever you used)
+- **Styling:** CSS
 - **State Management:** React Hooks
 
 ---
